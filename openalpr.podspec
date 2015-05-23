@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = '/src/openalpr/**/*.{h,c,cpp}'
+  s.source_files  = "src/openalpr/**", "objective-c/**"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
