@@ -11,7 +11,8 @@
 #include "utility.h"
 
 #include "opencv2/imgproc/imgproc.hpp"
-#include "textdetection/textline.h"
+#include "textline.h"
+//#include "textdetection/textline.h"
 
 namespace alpr
 {

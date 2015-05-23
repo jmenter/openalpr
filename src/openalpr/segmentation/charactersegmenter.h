@@ -26,7 +26,8 @@
 #include "utility.h"
 #include "verticalhistogram.h"
 #include "config.h"
-#include "textdetection/textcontours.h"
+#include "textcontours.h"
+//#include "textdetection/textcontours.h"
 #include "pipeline_data.h"
 
 namespace alpr

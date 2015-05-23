@@ -28,7 +28,7 @@
  */
 
 #include "onig_config.h"
-#include "onigposix.h"
+//#include "onigposix.h"
 
 #ifdef HAVE_STRING_H
 # include <string.h>

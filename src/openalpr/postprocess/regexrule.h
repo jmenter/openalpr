@@ -24,9 +24,12 @@
 #include <string>
 #include <cstring>
 #include <vector>
-#include "support/regex/oniguruma.h"
-#include "support/utf8.h"
-#include "support/tinythread.h"
+#include "oniguruma.h"
+//#include "support/regex/oniguruma.h"
+#include "utf8.h"
+//#include "support/utf8.h"
+#include "tinythread.h"
+//#include "support/tinythread.h"
 
 namespace alpr
 {

@@ -25,7 +25,8 @@
 
 
 #include "utility.h"
-#include "support/timing.h"
+#include "timing.h"
+//#include "support/timing.h"
 #include "constants.h"
 
 namespace alpr

@@ -30,7 +30,7 @@
 #define regex_t   onig_regex_t
 #include "regint.h"
 #undef regex_t
-#include "onigposix.h"
+//#include "onigposix.h"
 
 #define ONIG_C(reg)    ((onig_regex_t* )((reg)->onig))
 #define PONIG_C(reg)   ((onig_regex_t** )(&(reg)->onig))

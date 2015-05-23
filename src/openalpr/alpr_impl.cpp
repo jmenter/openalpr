@@ -18,7 +18,7 @@
 */
 
 #include "alpr_impl.h"
-
+#include "version.h"
 
 void plateAnalysisThread(void* arg);
 

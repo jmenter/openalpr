@@ -32,7 +32,8 @@
 #include "opencv2/imgproc/imgproc.hpp"
 #include "support/filesystem.h"
 
-#include "tesseract/baseapi.h"
+#include <TesseractOCRiOS/baseapi.h>
+//#include "tesseract/baseapi.h"
 
 namespace alpr
 {
