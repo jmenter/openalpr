@@ -89,8 +89,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "src/openalpr/**", "objective-c/**"
-
+  s.source_files  = "src/openalpr/**/*.{h,m,c,cpp}", "objective-c/**/*.{h,m}"
+  s.exclude_files = "src/openalpr/support/windows/*"
+  
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
@@ -126,8 +127,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/**/*" }
   s.dependency "OpenCV", "2.4.9"
   s.dependency "TesseractOCRiOS", "3.4.0"
   
